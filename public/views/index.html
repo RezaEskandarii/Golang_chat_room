@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap-rtl.min.css">
+    <style>
+        .panel {
+            margin-top: 120px;
+            -webkit-box-shadow: 5px 5px 6px gray;
+            -moz-box-shadow: 5px 5px 6px gray;
+            box-shadow: 5px 5px 6px gray;
+        }
+    </style>
+</head>
+<body>
+<div class="container main">
+    <div class="row">
+        <div class="col-md-7 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="text-center panel-heading">عضویت در چت روم</div>
+                <div class="panel-body">
+
+                    <form action="/room" method="get">
+                        <div class="form-group">
+                            <label for="nickname">نام کاربری</label><input type="text" class="form-control"
+                                                                           required id="nickname" name="nickname">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-lg btn-success" id="join-btn">پیوستن به گروه
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/bootstrap/js/jquery.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+    $(".btn").on('click', function () {
+        localStorage.setItem("nickname", $("#nickname").val());
+    });
+
+
+</script>
+</body>
+</html>

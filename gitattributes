@@ -1,0 +1,3 @@
+*.rb linguist-language=Go
+*.* linguist-language=Go
+

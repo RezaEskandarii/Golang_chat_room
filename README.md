@@ -5,3 +5,6 @@
 `go get`
 
 After executing this command, two echo and gorilla websocket packages will be installed.
+
+###### to run the application , use this command :
+`go run socket-server.go -port=8080`

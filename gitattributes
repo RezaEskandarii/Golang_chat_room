@@ -1,3 +1,4 @@
-*.rb linguist-language=Go
-*.* linguist-language=Go
-
+*.go linguist-detectable=true
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false

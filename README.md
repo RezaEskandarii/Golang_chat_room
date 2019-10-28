@@ -1,6 +1,6 @@
 ## online chat room
 #### Users can chat   Real Time, share files and paint.
-### Enter the following command to get the packages installed
+### Enter the following command to install the dependencies .  
 
 `go get`
 

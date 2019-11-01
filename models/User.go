@@ -9,4 +9,5 @@ type User struct {
 	Email     string
 	Password  string
 	IsActive  bool
+	Type      string
 }

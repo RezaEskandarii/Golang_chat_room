@@ -11,3 +11,4 @@ type User struct {
 	IsActive  bool
 	Type      string
 }
+ 

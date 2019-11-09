@@ -32,6 +32,7 @@ func (app *App) init() {
 
 }
 
+// init
 func (app *App) Run(port int) {
 	app.init()
 	address := fmt.Sprintf(":%d", port)

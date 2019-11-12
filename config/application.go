@@ -8,6 +8,7 @@ import (
 	"html/template"
 )
 
+// application struct
 type App struct {
 	Echo *echo.Echo
 }

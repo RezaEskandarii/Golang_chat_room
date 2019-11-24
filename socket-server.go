@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// container
 	app := &config.App{}
 	port := flag.Int("port", 8080, "run application on given port")
 	flag.Parse()

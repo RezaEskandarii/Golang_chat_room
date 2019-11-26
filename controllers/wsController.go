@@ -15,6 +15,7 @@ type WsController struct {
 
 var (
 	upgrader = websocket.Upgrader{
+		// default buffer size fo reading messages
 		ReadBufferSize:  1024,
 		WriteBufferSize: 1024,
 		CheckOrigin: func(r *http.Request) bool {

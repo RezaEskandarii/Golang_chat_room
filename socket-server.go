@@ -15,6 +15,7 @@ func main() {
 	port := flag.Int("port", 8080, "run application on given port")
 	// pars flags from cli when app runs
 	flag.Parse()
+	// run application by port
 	app.Run(*port)
 }
 

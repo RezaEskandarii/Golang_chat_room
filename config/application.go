@@ -12,7 +12,7 @@ import (
 type App struct {
 	Echo *echo.Echo
 }
-
+// initilize app and set dependencies .
 func (app *App) init() {
 	e := echo.New()
 	app.Echo = e

@@ -5,11 +5,12 @@ type Message struct {
 	// chat - drawing
 	Type string `json:"type"`
 
-	// chat fields
+	// chat fields .
 	ID       uint   `json:"id"`
 	Body     string `json:"body"`
 	Nickname string `json:"nickname"`
 	Image    string
+
 
 	// drawing fields
 	PointX    float64 `json:"point_x"`

@@ -10,5 +10,6 @@ type User struct {
 	Password  string
 	IsActive  bool
 	Type      string
+	EmailConfirmed bool
 }
  

@@ -1,1 +1,6 @@
 
+type EmailService struct{
+
+func (e *EmailService) Send(message *EmailMessage)
+  
+}

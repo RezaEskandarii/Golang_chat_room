@@ -4,3 +4,9 @@ type EmailService struct{
 func (e *EmailService) Send(message *EmailMessage)
   
 }
+
+func (e *EmailService) SendedEmailsList()[]EmailMessage
+  
+}
+
+ 

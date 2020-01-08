@@ -13,3 +13,4 @@ func (us *UserService)RemoveById(id uint){}
 func (us *UserService)FindByEmail(email string){}
 
 func (us *UserService)GetAll(){}
+

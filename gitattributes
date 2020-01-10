@@ -1,4 +1,4 @@
- *.* linguist-language=Java
+ *.* linguist-language=Go
 * linguist-vendored
 *.css linguist-vendored=false
 *.html linguist-vendored=false

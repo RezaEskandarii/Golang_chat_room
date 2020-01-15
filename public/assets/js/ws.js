@@ -51,7 +51,7 @@ $("#chat-form").on('submit', function (e) {
     chat.Image = "";
     $(".message_input").val('');
 });
-
+// handle on close
 socket.onclose = () => {
     console.log("websocket is disconnected now .");
 };
@@ -76,6 +76,7 @@ myPics.addEventListener('mousedown', e => {
 });
 
 let msg = chat;
+// listen to socket
 myPics.addEventListener('mousemove', e => {
     if (isDrawing === true) {
         drawLine(context, x, y, e.clientX - rect.left, e.clientY - rect.top);

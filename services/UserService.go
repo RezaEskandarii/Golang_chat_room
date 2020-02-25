@@ -14,3 +14,4 @@ func (us *UserService)FindByEmail(email string){}
 
 func (us *UserService)GetAll(){}
 
+func (ud *UserService)Filter(filterText string){}
